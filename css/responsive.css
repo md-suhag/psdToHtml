@@ -1,0 +1,33 @@
+/* tablet layout  */
+@media only screen and (min-width:200px) and (max-width:991px){
+    /* .logo-area{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    } */
+     /* .social-area {display: block;
+    margin: 0 auto ; width: 269px; float: none;  max-width: none; padding-top: 0;} */
+    .social-area{ max-width: 450px; padding-top: 15px;}
+    .inner-header {padding: 20px 0; }
+    .inner-menu{ background: none; min-height: auto; padding: 0;}
+    .inner-menu::after{display: none;}
+    .inner-hero h2{ font-size: 3rem;}
+}
+
+/* mobile layout */
+@media only screen and (min-width:200px) and (max-width:576px){
+
+    .mini-menu { width: 100%; float: none;}
+    .mini-menu ul { margin-bottom: 10px; text-align: center; }
+    .search-area,.logo-area {float: none; width: 250px; margin: 0 auto; text-align: center; }
+    .social-area ul{text-align: center;}
+    .social-area ul li { margin: 0 5px; }
+    .inner-hero h2 { font-size: 25px; }
+    .inner-hero{padding-bottom: 20px; padding-left: 5px; padding-right: 5px;}
+    #work-area {padding: 20px 0; }
+    .about-area{padding: 0 5px;}
+    .child-work{width: 98%;}
+    .child-footer{width: 96%;}
+    .left-copyright{width: 100%; margin-bottom: 10px;}
+    .right-copyright{width: 100%; text-align: left;}
+}
